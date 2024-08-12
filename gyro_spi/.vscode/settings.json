@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "stm32f429xx.h": "c",
+        "stm32f4xx_ll_gpio.h": "c",
+        "stm32f4xx_ll_usart.h": "c",
+        "stm32f4xx_ll_bus.h": "c",
+        "stm32f4xx_ll_spi.h": "c",
+        "stm32f429i_discovery_lcd.h": "c",
+        "stm32f429i_discovery_gyroscope.h": "c",
+        "stm32f429i_discovery.h": "c",
+        "stm32f4xx_ll_tim.h": "c",
+        "l3gd20.h": "c",
+        "stdio.h": "c",
+        "arm_math.h": "c",
+        "stm32f4xx_ll_rcc.h": "c"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "vscode_stm32_c_cpp_properties",
+            "compilerPath": "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.3 rel1/bin/arm-none-eabi-gcc",
+            "includePath": [
+                "C:/STM32/Stm32Cube/Drivers/CMSIS/Include/",
+                "C:/STM32/STM32Cube/Drivers/CMSIS/DSP/Include/",
+                "C:/STM32/Stm32Cube/Drivers/CMSIS/Device/ST/STM32F4xx/Include/",
+                "C:/STM32/STM32Cube/Drivers/STM32F4xx_HAL_Driver/Inc/",
+                "C:/STM32/STM32Cube/Drivers/BSP/STM32F429I-Discovery/",
+                "${workspaceFolder}/inc"
+            ],
+            "defines": [
+                "STM32F4xx",
+                "ARM_MATH_CM4",
+                "USE_FULL_LL_DRIVER"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

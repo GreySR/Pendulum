@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "openocd",
+            "cwd": "${workspaceFolder}",
+            "executable": "./main.elf", // Выходной файл сборки
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "servertype": "openocd",
+            // Указать используемый контроллер
+            "svdFile": "STM32F429.svd",            
+            "liveWatch": {
+                "enabled": true,
+                "samplesPerSecond": 4
+            },
+            "configFiles": [
+                // Указать нужный программатор
+                "interface/stlink-v2.cfg",
+                // Указать используемый контроллер
+                "target/stm32f4x.cfg"
+            ],
+            "preLaunchTask": "Build elf" // Сборочная задача из tasks.json
+        }
+    ]
+}
